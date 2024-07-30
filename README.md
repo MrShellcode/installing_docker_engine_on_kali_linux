@@ -5,7 +5,7 @@ Before you can install Docker Engine, you need to uninstall any conflicting pack
 Run the following command to uninstall all conflicting packages:
 
 ```
-$ sudo apt remove docker.io docker-doc docker-compose docker-compose-v2 podman-docker ontainerd runc && sudo apt update
+$ sudo apt update && apt remove docker.io docker-doc docker-compose docker-compose-v2 podman-docker ontainerd runc
 ```
 
 ### Step 2 :
@@ -18,7 +18,9 @@ $ sudo curl -fsSL https://download.docker.com/linux/debian/gpg | sudo gpg --dear
 $ sudo apt update
 ```
 2.Install the Docker packages.
+```
 sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+```
 
 
 3.Verify that the Docker Engine installation is successful by running the hello-world image.
