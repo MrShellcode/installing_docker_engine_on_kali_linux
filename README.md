@@ -1,12 +1,10 @@
 # Install Docker Engine on kali linux/debian
-## method 1 :
-using  install_docker.sh script for automated installing 
+## First method: using  install_docker.sh script for automated installing 
 ```bash
 sudo chmod +x install_docker.sh
 sudo ./install_docker.sh
 ```
-## method 2 :
-use this instructions to install docker
+## Second method : using this instructions to install docker manually
 ### Step 1 :
 Before you can install Docker Engine, you need to uninstall any conflicting packages.
 Run the following command to uninstall all conflicting packages:
